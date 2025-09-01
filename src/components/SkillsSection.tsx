@@ -93,17 +93,17 @@ export default function SkillsSection() {
           <motion.div variants={skillCategoryVariants}>
             <GlassCard className="p-4">
               <h3 className="text-lg font-medium mb-3 text-center md:text-left flex items-center">
-                <span className="mr-2 text-xl">⚙️</span> Backend Development
+                <span className="mr-2 text-xl">⚙️</span> Computer-Aided Design (CAD)
               </h3>
               <div className="flex flex-wrap gap-2 justify-center md:justify-start">
-                {skills.backendDevelopment.map((skill, index) => (
+                {skills.computerAidedDesign.map((skill, index) => (
                   <SkillTag key={skill} skill={skill} index={index} />
                 ))}
               </div>
             </GlassCard>
           </motion.div>
 
-          <motion.div variants={skillCategoryVariants}>
+          {/* <motion.div variants={skillCategoryVariants}>
             <GlassCard className="p-4">
               <h3 className="text-lg font-medium mb-3 text-center md:text-left flex items-center">
                 <span className="mr-2 text-xl">🗄️</span> Database & Storage
@@ -114,9 +114,9 @@ export default function SkillsSection() {
                 ))}
               </div>
             </GlassCard>
-          </motion.div>
+          </motion.div> */}
 
-          <motion.div variants={skillCategoryVariants}>
+          {/* <motion.div variants={skillCategoryVariants}>
             <GlassCard className="p-4">
               <h3 className="text-lg font-medium mb-3 text-center md:text-left flex items-center">
                 <span className="mr-2 text-xl">☁️</span> Cloud & DevOps
@@ -127,9 +127,9 @@ export default function SkillsSection() {
                 ))}
               </div>
             </GlassCard>
-          </motion.div>
+          </motion.div> */}
 
-          <motion.div variants={skillCategoryVariants}>
+          {/* <motion.div variants={skillCategoryVariants}>
             <GlassCard className="p-4">
               <h3 className="text-lg font-medium mb-3 text-center md:text-left flex items-center">
                 <span className="mr-2 text-xl">🧰</span> Tools & Services
@@ -140,7 +140,7 @@ export default function SkillsSection() {
                 ))}
               </div>
             </GlassCard>
-          </motion.div>
+          </motion.div> */}
         </motion.div>
       </div>
     </section>
