@@ -1,5 +1,6 @@
 import { personalInfo } from "@/lib/data";
-import { Mail, Github, MapPin, Linkedin } from "lucide-react";
+import { Mail, MapPin, Linkedin } from "lucide-react";
+import { SiGithub } from "@icons-pack/react-simple-icons";
 import { motion } from "framer-motion";
 import MotionWrapper from "./MotionWrapper";
 
@@ -48,7 +49,7 @@ export default function HeroSection() {
               className="text-xl text-muted-foreground mb-6"
               variants={childVariants}
             >
-              Software Engineer 👨‍💻
+              Computer Engineer 💻
             </motion.p>
 
             <motion.div
@@ -61,7 +62,7 @@ export default function HeroSection() {
                 whileHover={{ scale: 1.05, color: "#4b5563" }}
               >
                 <MapPin className="h-4 w-4 mr-2" />
-                📍 {personalInfo.location}
+                {personalInfo.location}
               </motion.div>
 
               <motion.a
@@ -71,7 +72,7 @@ export default function HeroSection() {
                 whileHover={{ scale: 1.05, color: "#4b5563" }}
               >
                 <Mail className="h-4 w-4 mr-2" />
-                ✉️ {personalInfo.email}
+                {personalInfo.email}
               </motion.a>
 
               <motion.a
@@ -82,8 +83,8 @@ export default function HeroSection() {
                 variants={childVariants}
                 whileHover={{ scale: 1.05, color: "#4b5563" }}
               >
-                <Github className="h-4 w-4 mr-2" />
-                🌟 GitHub
+                <SiGithub className="h-4 w-4 mr-2"/>
+                jelee231
               </motion.a>
 
               <motion.a
@@ -95,7 +96,7 @@ export default function HeroSection() {
                 whileHover={{ scale: 1.05, color: "#4b5563" }}
               >
                 <Linkedin className="h-4 w-4 mr-2" />
-                🔗 LinkedIn
+                jacob-e-lee
               </motion.a>
             </motion.div>
           </div>

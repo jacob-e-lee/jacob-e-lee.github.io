@@ -4,7 +4,7 @@ export const personalInfo = {
   email: "jelee231@vt.com",
   github: "https://github.com/jelee231",
   linkedin: "https://linkedin.com/in/jacob-e-lee",
-  profilePicture: "/profile.jpeg",
+  profilePicture: "/profile.avif",
   heroDescription:
     "Computer Engineering student with programming, CAD, and system integration experience. Strong in teamwork, documentation, and applying engineering principles to real-world systems. Currently pursuing a B.S. in Computer Engineering at Virginia Tech with coursework in circuits, digital systems, and differential equations.",
 };
