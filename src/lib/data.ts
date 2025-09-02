@@ -2,7 +2,7 @@ export const personalInfo = {
   name: "Jacob E. Lee",
   location: "Gainesville, VA",
   email: "jelee231@vt.com",
-  github: "https://github.com/jelee231",
+  github: "https://github.com/jacob-e-lee",
   linkedin: "https://linkedin.com/in/jacob-e-lee",
   profilePicture: "/profile.avif",
   heroDescription:

@@ -84,7 +84,7 @@ export default function HeroSection() {
                 whileHover={{ scale: 1.05, color: "#4b5563" }}
               >
                 <SiGithub className="h-4 w-4 mr-2"/>
-                jelee231
+                jacob-e-lee
               </motion.a>
 
               <motion.a
